@@ -14,4 +14,9 @@ hello git
 //git push失败，看见git pull的警告，说明云端代码被修改过
 
 //创建分支
-git branch a:a
+git branch a
+
+//第一次向云端创建并提交代码
+git push origin a:a
+//第一个a和第二个a： 本地分支名:远程分支名
+//第二次开始就可以直接git push origin name
