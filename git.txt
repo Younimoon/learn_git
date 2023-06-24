@@ -23,3 +23,6 @@ git push origin a:a
 //第二次开始就可以直接git push origin name
 
 //git分支拉取主分支代码 git pull origin main
+
+
+//git主分支合并分支：git merge origin name 合并分支
