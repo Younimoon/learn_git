@@ -1,1 +1,25 @@
 分支代码
+hello git
+
+//本地添加代码，传到云端仓库
+// git status 查看代码状态 红色是代表未上传 绿色是代表存在于暂存区
+// git add 文件名 将需要添加到暂存区的文件添加到暂存区 ， 全部文件用点代替
+// git commit -m "介绍" 将文件本地文件推送到本地仓库
+// git push 将本地文件推送到云端
+
+//回退版本 
+//git reset --hard 版本号
+//github的版本号：点击仓库的提交时间
+
+//云端手动添加，模拟多人协同，他人添加代码，和自己本地代码不一致的情况
+//git push失败，看见git pull的警告，说明云端代码被修改过
+
+//创建分支
+git branch a
+
+//第一次向云端创建并提交代码
+git push origin a:a
+//第一个a和第二个a： 本地分支名:远程分支名
+//第二次开始就可以直接git push origin name
+
+//git分支拉取主分支代码 git pull origin main
