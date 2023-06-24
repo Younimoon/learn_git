@@ -5,3 +5,7 @@ hello git
 // git add 文件名 将需要添加到暂存区的文件添加到暂存区 ， 全部文件用点代替
 // git commit -m "介绍" 将文件本地文件推送到本地仓库
 // git push 将本地文件推送到云端
+
+//回退版本 
+//git reset --hard 版本号
+//github的版本号：点击仓库的提交时间
