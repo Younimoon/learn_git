@@ -26,3 +26,6 @@ git push origin a:a
 
 
 //git主分支合并分支：git merge origin name 合并分支
+
+
+拉去diamagnetic
