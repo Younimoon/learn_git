@@ -27,5 +27,4 @@ git push origin a:a
 
 //git主分支合并分支：git merge origin name 合并分支
 
-
-我是分支代码啦啦啦
+//远程分支名和本地分支名建立连接git push --set-upstream origin 分支名
